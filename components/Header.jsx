@@ -41,7 +41,7 @@ const Header = () => {
             />
             <ThemeToggler />
             {/* mobile nav */}
-            <div class="xl:hidden">
+            <div className="xl:hidden">
               <MobileNav />
             </div>
           </div>

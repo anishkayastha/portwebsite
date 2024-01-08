@@ -66,7 +66,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work/4.png',
+        image: '/work/1.png',
         category: 'fullstack',
         name: 'Serenity Website',
         description: 'Lorem ipsum dolor dit amet consectetur adipisicing elit. Cumque, quis.',
@@ -118,7 +118,7 @@ const Work = () => {
                     pagination={{clickable: true}}
                 >
                     {/* show only the first 4 projects for the slides */}
-                    {projectData.slice(0.4).map((project, index) => {
+                    {projectData.slice(0, 4).map((project, index) => {
                         return (
                             <SwiperSlide key={index}>
                                 <ProjectCard project={project} />

@@ -9,17 +9,17 @@ import {
 
 const servicesData = [
     {
-        icon: <GanttChartSquare size={72} strkeWidth={0.8} />,
+        icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Design',
         description: 'Lorem ipsum dolor sit amet, consectetur adipsicing elit. Hic quasi libero quidem sit deserunt fuga.',
     },
     {
-        icon: <Blocks size={72} strkeWidth={0.8} />,
+        icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
         description: 'Lorem ipsum dolor sit amet, consectetur adipsicing elit. Hic quasi libero quidem sit deserunt fuga.',
     },
     {
-        icon: <App Development size={72} strkeWidth={0.8} />,
+        icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'App Development',
         description: 'Lorem ipsum dolor sit amet, consectetur adipsicing elit. Hic quasi libero quidem sit deserunt fuga.',
     },
@@ -41,7 +41,7 @@ const Services = () => {
                             key={index}
                         >
                             <CardHeader className='text-primary absolute -top-[60px]'>
-                                <div className='w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center'>
+                                <div className='w-[140px] h-[80px] bg-white dark:bg-background flex justify-center items-center'>
                                     {item.icon}
                                 </div>
                             </CardHeader>
